@@ -32,9 +32,6 @@ if [ -n "$2" ]; then
     template=$2
 fi
 
-<<<<<<< Updated upstream
-echo "https://github.com/$org/$pro/compare/$base_branch...$current_branch?quick_pull=1&title=$title&template=$template"
-=======
 ghUrl="https://github.com/$org/$pro/compare/$base_branch...$current_branch?quick_pull=1&title=$title"
 
 if [ -n "$template" ]; then
@@ -42,4 +39,3 @@ if [ -n "$template" ]; then
 fi
 
 open $ghUrl
->>>>>>> Stashed changes
